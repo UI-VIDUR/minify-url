@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-4 lg:px-0 sm:max-w-xl md:px-0 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-4 lg:px-0 sm:max-w-xl md:px-0 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto items-center">
         <div className="">
           <h1 className="text-5xl font-black uppercase font-sans">Create Short URLs</h1>
           <form className="my-8 flex">
